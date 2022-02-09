@@ -28,4 +28,4 @@ To start working on the assignment in Colab, **save a copy on your Google Drive*
   - [ ] instruction for deliverable
 - [ ] include 'cover' image just under setup (providing in- to output)
 - [x] create list of methods/functions
-- [ ] create importable library for methods/functions
+- [x] create importable library for methods/functions
