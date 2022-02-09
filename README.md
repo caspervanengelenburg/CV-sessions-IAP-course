@@ -17,5 +17,12 @@ In this assignment you will _learn_ and _manually implement_ how to **detect the
 - basic understanding of work-around in _Google Colaboratory_
 - basic understanding of _OpenCV_ library and how to import, load, and plot images
 
+To Do's (Casper)
 
-
+- [ ] include Colab 'guide'
+  - [ ] introduction (what will be learned)
+  - [ ] functions
+  - [ ] instruction for deliverable
+- [ ] include 'cover' image just under setup (providing in- to output)
+- [ ] create list of methods/functions
+- [ ] create importable library for methods/functions
