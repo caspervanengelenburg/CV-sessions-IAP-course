@@ -19,7 +19,7 @@ In this assignment you will _learn_ and _manually implement_ how to **detect the
 
 ## Instructions
 
-To start working on the assignment in Colab, **save a copy on your Google Drive** (`File` $\rightarrow$ `Save a copy in Drive`). The copied version of the assignment will be *the* guide for the assignment!
+To start working on the assignment in Colab, **save a copy on your Google Drive** (`File` $$\rightarrow$$ `Save a copy in Drive`). The copied version of the assignment will be *the* guide for the assignment!
 
 ## To Do's (Casper)
 - [ ] include Colab 'guide'
