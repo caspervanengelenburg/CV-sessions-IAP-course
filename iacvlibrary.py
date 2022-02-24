@@ -59,7 +59,7 @@ def midpoint(ptA, ptB):
 
 def pixpermetric(img, ref, metric="cm", show=False):
     h, w = img.shape[0], img.shape[1]
-    if ref.size()==1: 
+    if isinstance(ref, int): 
         pixpm = w/ref
         if show: print(f"Pixels per {metric} in X and Y = {pixpm:.2f}")
     elif ref.size()==2: 
