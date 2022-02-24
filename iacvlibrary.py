@@ -71,7 +71,7 @@ def pixpermetric(img, ref, metric="cm", show=False):
 def pix2metric(dim, pixpm, metric="cm",show=False):
     dimY, dimX = dim[0], dim[1]
     if len(pixpm) == 2: d = [dimY/pixpm[0], dimX/pixpm[1]]
-    elif len(pixpm) == 1: d = [dimY/pixpm, dimX/pixpm]
+    else: d = [dimY/pixpm, dimX/pixpm]
     if show: print(f"The size of the bounding box frame is: {d[0]:.2f}{metric} x {d[1]:.2f}{metric} (height x width) /n")
     return d
 
