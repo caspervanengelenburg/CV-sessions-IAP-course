@@ -59,10 +59,10 @@ def midpoint(ptA, ptB):
 
 def pixpermetric(img, ref, metric="cm", show=False):
     h, w = img.shape[0], img.shape[1]
-    if isinstance(ref, int): 
+    if isinstance(ref, float) or isinstance(ref, int): 
         pixpm = w/ref
         if show: print(f"Pixels per {metric} in X and Y = {pixpm:.2f}")
-    elif ref.size()==2: 
+    else: 
         pixpm = [h/refh, w/refw]
         refw, refh = ref[0], ref[1]
         if show: print(f"Pixels per {metric} in Y = {pixpm[0]:.2f} \nPixels per {metric} in X = {pixpm[1]:.2f}")
@@ -70,8 +70,8 @@ def pixpermetric(img, ref, metric="cm", show=False):
 
 def pix2metric(dim, pixpm, metric="cm",show=False):
     dimY, dimX = dim[0], dim[1]
-    if len(pixpm) == 2: d = [dimY/pixpm[0], dimX/pixpm[1]]
-    else: d = [dimY/pixpm, dimX/pixpm]
+    if isistance(pixpm, float) or isinstance(pixpm, int): d = [dimY/pixpm, dimX/pixpm]
+    else: d = [dimY/pixpm[0], dimX/pixpm[1]]
     if show: print(f"The size of the bounding box frame is: {d[0]:.2f}{metric} x {d[1]:.2f}{metric} (height x width) /n")
     return d
 
