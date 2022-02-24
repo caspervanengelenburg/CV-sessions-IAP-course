@@ -57,7 +57,7 @@ color_cross   = (0, 0, 255)   #center of mass color
 def midpoint(ptA, ptB):
     return ((ptA[0] + ptB[0]) * 0.5, (ptA[1] + ptB[1]) * 0.5)
 
-def pixpermetric(image, ref, metric="cm", show=False):
+def pixpermetric(img, ref, metric="cm", show=False):
     h, w = img.shape[0], img.shape[1]
     if ref.size()==1: 
         pixpm = w/ref
