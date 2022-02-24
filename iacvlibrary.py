@@ -192,7 +192,7 @@ def imshow(img, figsize=[10, 10], axis=False):
     if axis==False: plt.axis('off')    
     plt.imshow(imgp)
     
-def drawbbox(img, bboxs, pixpm):
+def drawbbox(img, bboxs, pixpm=None, dimbbox=None):
     
     #copy image
     img = img.copy()
@@ -233,10 +233,13 @@ def drawbbox(img, bboxs, pixpm):
         # compute the Euclidean distance between the midpoints
         dimA = dist.euclidean((tltrX, tltrY), (blbrX, blbrY))
         dimB = dist.euclidean((tlblX, tlblY), (trbrX, trbrY))
-
-        # if the pixels per metric has not been initialized, then compute 
-        # it as the ratio of pixels to supplied metric (in this case, inches)
-        d = pix2metric([dimA, dimB], pixpm)
+        
+        if pixpm is not None:
+            # if the pixels per metric has not been initialized, then compute 
+            # it as the ratio of pixels to supplied metric (in this case, inches)
+            d = pix2metric([dimA, dimB], pixpm)
+        elif dimbbox is not None:
+            d = dimbbox
 
         # draw the object sizes on the image
         cv2.putText(img, "{:.2f} cm".format(d[0]),
