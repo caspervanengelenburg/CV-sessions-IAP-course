@@ -271,3 +271,41 @@ def drawcm(img, cms, pixpm):
     
     #show image
     imshow(img)
+    
+def findelement(dim, bboxs, pixpm):
+
+    dim = np.array(dim)
+    d = []
+    
+    for bbox in bboxs:
+
+        (tl, tr, br, bl) = bbox
+        (tltrX, tltrY) = midpoint(tl, tr)
+        (blbrX, blbrY) = midpoint(bl, br)
+
+        # compute the midpoint between the top-left and top-right points, 
+        # followed by the midpoint between the top-righ and bottom-right
+        (tlblX, tlblY) = midpoint(tl, bl)
+        (trbrX, trbrY) = midpoint(tr, br)
+
+        # compute the Euclidean distance between the midpoints
+        dimA = dist.euclidean((tltrX, tltrY), (blbrX, blbrY))
+        dimB = dist.euclidean((tlblX, tlblY), (trbrX, trbrY))
+        
+        if pixpm is not None:
+            # if the pixels per metric has not been initialized, then compute 
+            # it as the ratio of pixels to supplied metric (in this case, inches)
+            d.append(pix2metric([dimA, dimB], pixpm))
+
+    
+    #get difference and find closest point (based on euclidian distance)
+    d = np.array(d)
+    eucl = np.sqrt(np.sum(np.power(d - dim, 2), axis=1))
+
+    #find using argsort (finds argument)
+    idx = np.argsort(eucl)[0]
+
+    #define new bbox (as list - for compatibility with drawing functions)
+    bbox = [bboxs[idx]]
+    
+    return bbox
