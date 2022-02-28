@@ -64,8 +64,8 @@ def pixpermetric(img, ref, metric="cm", show=False):
         pixpm = w/ref
         if show: print(f"Pixels per {metric} in X and Y = {pixpm:.2f}")
     else: 
-        pixpm = [h/refh, w/refw]
         refw, refh = ref[0], ref[1]
+        pixpm = [h/refh, w/refw]
         if show: print(f"Pixels per {metric} in Y = {pixpm[0]:.2f} \nPixels per {metric} in X = {pixpm[1]:.2f}")
     return pixpm
 
