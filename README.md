@@ -2,10 +2,10 @@
 
 Welcome to the second part of the 1:1 Interactive Architecture Prototypes course. We will use Github and Google Colaboratory (will be introduced in the lecture) for both sessions. For Computer vision (CV), both are used very often in combination. This part of the course consists of two session: the first introducing the python and image processing and the second on how to solve the task at hand using some classical, though advanced, computer vision methods. 
 
-# CV 1 - Python, Google colab, Matplotlib, OpenCV
+# CV 1 - _Python, Google colab, Matplotlib, OpenCV_
 
 *description* <br />
-CV module 1st session for Interactive Architecture Workshop
+**Computer vision assignment 1** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
 *set-up* <br />
 In this [notebook](https://github.com/caspervanengelenburg/interactive_architecture_Q3_CV2/blob/main/interactive-architecture-Q3-CV1-guide.ipynb) we introduce the basic Python libraries for image processing. You will **learn** to ...
@@ -19,10 +19,10 @@ In this [notebook](https://github.com/caspervanengelenburg/interactive_architect
 
 To start working on the assignment in Colab, **save a copy on your Google Drive** (`File` -> `Save a copy in Drive`). The copied version of the assignment will be *the* guide for the assignment!
 
-# CV 2 - detection, size estimation, and localization of design elements
+# CV 2 - _detection, size estimation, and localization of design elements_
 
 *description* <br />
-Computer vision assignment 2 for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
+**Computer vision assignment 2** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
 ## Set-up and requirements
 
