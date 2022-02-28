@@ -9,6 +9,7 @@ UTILITIES
   `pix2metric` determine *real* distance per pixel
   `getbbox` determine the bounding box for a given contour
   `getcm` determine the center of mass given a rectangular bounding box
+  `findelement` finds element 'closest' to input dimensions
   
 IMAGE PROCESSING
 
