@@ -1,4 +1,4 @@
-# Computer vision - Interactive Architecture Prototypes
+# Computer vision for interactive Architecture 
 
 Welcome to the second part of the 1:1 Interactive Architecture Prototypes course. We will use Github and Google Colaboratory (will be introduced in the lecture) for both sessions. For Computer vision (CV), both are used very often in combination. This part of the course consists of two session: the first introducing the python and image processing and the second on how to solve the task at hand using some classical, though advanced, computer vision methods. 
 
