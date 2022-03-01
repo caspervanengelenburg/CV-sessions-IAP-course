@@ -24,8 +24,6 @@ To start working on the assignment in Colab, **save a copy on your Google Drive*
 *description* <br />
 **Computer vision assignment 2** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
-## Set-up and requirements
-
 *set-up* <br />
 In this [assignment](https://github.com/caspervanengelenburg/interactive_architecture_Q3_CV2/blob/main/interactive_architecture_Q3_CV2_guide.ipynb) you will _learn_ and _manually implement_ how to **detect the design elements**, **estimate their sizes**, and **determine their relative position** to the frame they are placed in. You will be guided through a text-included python script (Google Colaboratory) in which several ***classical* CV methods**  - e.g. RGB to grayscale, simple line or contour detectors, morphological operations - are thoroughly discussed. You do **not** have to program these methods yourself, instead they will be included in a Python package we have created for you. The **goal** of the assignment is two-fold: 
 
