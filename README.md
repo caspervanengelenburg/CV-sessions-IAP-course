@@ -8,7 +8,7 @@ Welcome to the second part of the 1:1 Interactive Architecture Prototypes course
 **Computer vision assignment 1** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
 *set-up* <br />
-In this [notebook](https://github.com/caspervanengelenburg/interactive_architecture_Q3_CV2/blob/main/interactive-architecture-Q3-CV1-guide.ipynb) we introduce the basic Python libraries for image processing. You will **learn** to ...
+In this [notebook](https://github.com/caspervanengelenburg/1on1-prototyping-IA-CV-sessions/blob/42310c6cd049965c4d41bf646378126724b67a0d/interactive_architecture_Q3_CV1_guide.ipynb) we introduce the basic Python libraries for image processing. You will **learn** to ...
 
 - **Execute** the code on Google Colab notebook
 - **Access** data on Google Colab notebook
