@@ -46,3 +46,9 @@ link to pinterest images:
 https://i.pinimg.com/originals/3a/90/6c/3a906c488e47b131d3647c2a5eff73ad.jpg
 https://i.pinimg.com/originals/ee/f8/ab/eef8ab8ba3f777c0ffbfbc4ebb81ef7e.jpg
 
+```python
+
+os.chdir('/content/gdrive/MyDrive')
+!ls
+
+```
