@@ -273,6 +273,8 @@ def drawcm(img, cms, pixpm):
     #show image
     imshow(img)
     
+from scipy.spatial import distance as dist
+
 def findelement(dim, bboxs, pixpm):
 
     dim = np.array(dim)
@@ -306,7 +308,4 @@ def findelement(dim, bboxs, pixpm):
     #find using argsort (finds argument)
     idx = np.argsort(eucl)[0]
 
-    #define new bbox (as list - for compatibility with drawing functions)
-    bbox = [bboxs[idx]]
-    
-    return bbox
+    return idx
