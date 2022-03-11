@@ -44,6 +44,7 @@ from imutils import contours
 import imutils
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy.spatial import distance as dist
 
 #SETTINGS
 color_edge    = (0, 255, 0)   #bounding box
@@ -273,8 +274,6 @@ def drawcm(img, cms, pixpm):
     #show image
     imshow(img)
     
-from scipy.spatial import distance as dist
-
 def findelement(dim, bboxs, pixpm):
 
     dim = np.array(dim)
