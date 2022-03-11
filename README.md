@@ -39,3 +39,10 @@ In this [assignment](https://github.com/caspervanengelenburg/interactive_archite
 ## Instructions
 
 To start working on the assignment in Colab, **save a copy on your Google Drive** (`File` -> `Save a copy in Drive`). The copied version of the assignment will be *the* guide for the assignment!
+
+
+link to pinterest images:
+
+https://i.pinimg.com/originals/3a/90/6c/3a906c488e47b131d3647c2a5eff73ad.jpg
+https://i.pinimg.com/originals/ee/f8/ab/eef8ab8ba3f777c0ffbfbc4ebb81ef7e.jpg
+
