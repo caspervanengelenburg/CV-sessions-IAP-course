@@ -4,7 +4,7 @@
 **Computer vision assignment 1** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
 *set-up* <br />
-In this [notebook](https://github.com/caspervanengelenburg/1on1-prototyping-IA-CV-sessions/blob/42310c6cd049965c4d41bf646378126724b67a0d/interactive_architecture_Q3_CV1_guide.ipynb) we introduce the basic Python libraries for image processing. You will **learn** to ...
+In this [notebook](https://github.com/caspervanengelenburg/CV-sessions-IAP-course/blob/main/2022/interactive_architecture_Q3_CV1_guide.ipynb) we introduce the basic Python libraries for image processing. You will **learn** to ...
 
 - **Execute** the code on Google Colab notebook
 - **Access** data on Google Colab notebook
@@ -21,7 +21,7 @@ To start working on the assignment in Colab, **save a copy on your Google Drive*
 **Computer vision assignment 2** for 1:1 Interactive Architecture Prototypes (ARO122, Delft University of Technology, faculty of Architecture and the Built-Environment)
 
 *set-up* <br />
-In this [assignment](https://github.com/caspervanengelenburg/interactive_architecture_Q3_CV2/blob/main/interactive_architecture_Q3_CV2_guide.ipynb) you will _learn_ and _manually implement_ how to **detect the design elements**, **estimate their sizes**, and **determine their relative position** to the frame they are placed in. You will be guided through a text-included python script (Google Colaboratory) in which several ***classical* CV methods**  - e.g. RGB to grayscale, simple line or contour detectors, morphological operations - are thoroughly discussed. You do **not** have to program these methods yourself, instead they will be included in a Python package we have created for you. The **goal** of the assignment is two-fold: 
+In this [assignment](https://github.com/caspervanengelenburg/CV-sessions-IAP-course/blob/main/2022/interactive_architecture_Q3_CV2_guide.ipynb) you will _learn_ and _manually implement_ how to **detect the design elements**, **estimate their sizes**, and **determine their relative position** to the frame they are placed in. You will be guided through a text-included python script (Google Colaboratory) in which several ***classical* CV methods**  - e.g. RGB to grayscale, simple line or contour detectors, morphological operations - are thoroughly discussed. You do **not** have to program these methods yourself, instead they will be included in a Python package we have created for you. The **goal** of the assignment is two-fold: 
 
 - **understand** how images can be manipulated and/or processed
 - **develop** a self-made python script that has the ability to detect, size-estimate, and localize the design elements, based on the set of proposed methods/functions

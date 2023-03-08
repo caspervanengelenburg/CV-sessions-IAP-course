@@ -123,7 +123,7 @@ def imresize(img, w_resize=500):
     return img_resize
 
 def rgb2gray(img):
-    return cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 def border2black(img, off=5):
     img[:,  :off] = 0
